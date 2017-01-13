@@ -1,0 +1,218 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /*background: #eee;*/
+    background: -webkit-linear-gradient(#03C1CF, #02A0E9);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#03C1CF, #02A0E9);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#03C1CF, #02A0E9);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(#03C1CF, #02A0E9);
+    /* 标准的语法 */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: snow;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-img {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.head-img img {
+    opacity: 0.8;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    /*margin: 0 auto;*/
+}
+
+.name {
+    text-align: center;
+}
+
+.name h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: snow;
+}
+
+.name .down1 {
+    font-size: 26px;
+}
+
+.slide2 {
+    background: url(../images/slide2.jpg) no-repeat;
+    background-size: 100% auto;
+    background-color: #029BBF;
+}
+
+.slide2 h1 {
+    color: snow;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid seashell;
+    padding-bottom: 10px;
+}
+
+.content2 {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.content-left {
+    border-right: 3px double mistyrose;
+}
+
+.content2 p {
+    color: #212325;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.content2 .content-left {
+    text-align: left;
+}
+
+.content2 .content-right {
+    text-align: left;
+}
+
+.slide3 {
+    background: -webkit-linear-gradient(#03C1CF, #029BBF);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#03C1CF, #029BBF);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#03C1CF, #029BBF);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(#03C1CF, #029BBF);
+}
+
+.pa-header {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    border-bottom: 2px solid snow;
+}
+
+.pa-content {
+    color: snow;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.slide5 {
+    background: -webkit-linear-gradient( #41B7F3, #5CE2CA);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient( #41B7F3, #5CE2CA);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient( #41B7F3, #5CE2CA);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient( #41B7F3, #5CE2CA);
+}
+
+
+/* 超小设备（手机，小于 768px） */
+
+
+/* Bootstrap 中默认情况下没有媒体查询 */
+
+
+/* 小型设备（平板电脑，768px 起） */
+
+@media (min-width: 768px) {
+    p {
+        font-size: 27px;
+        font-weight: 600;
+    }
+    .name h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .slide2 h1 {
+        font-size: 35px;
+        border-bottom: 3px solid snow;
+        padding-bottom: 15px;
+    }
+    .content2 p {
+        font-size: 27px;
+        font-weight: 600;
+    }
+    .content2 .content-left {
+        text-align: right;
+    }
+    .pa-header {
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: 600;
+        border-bottom: 3px solid snow;
+    }
+    .pa-content {
+        font-size: 23px;
+        font-weight: 600;
+        padding-left: 60px;
+    }
+}
+
+
+/* 中型设备（台式电脑，992px 起） */
+
+@media (min-width: 992px) {
+    p {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .slide2 h1 {
+        color: snow;
+        text-align: center;
+        font-size: 35px;
+        border-bottom: 3px solid seashell;
+        padding-bottom: 15px;
+    }
+    .name h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .content2 p {
+        font-size: 30px;
+    }
+    .pa-header {
+        margin-top: 20px;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .pa-content {
+        font-size: 27px;
+        font-weight: 600;
+        padding-left: 130px;
+    }
+}
+
+
+/* 大型设备（大台式电脑，1200px 起） */
+
+@media (min-width: 1200px) {}
